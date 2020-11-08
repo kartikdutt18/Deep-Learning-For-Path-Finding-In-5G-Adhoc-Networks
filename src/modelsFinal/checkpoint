@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/andre/super_folder/Andrew/Developer/AAA-Projects/ACUMOS/skynet2/modelsFinal/modelNew"
-all_model_checkpoint_paths: "/home/andre/super_folder/Andrew/Developer/AAA-Projects/ACUMOS/skynet2/modelsFinal/modelNew"
+model_checkpoint_path: "/Users/aarongreenburg/Uzumaki/Work/SWE/Open-Source/Deep-Learning-For-Path-Finding-In-5G-Adhoc-Networks/src/modelsFinal/modelNew"
+all_model_checkpoint_paths: "/Users/aarongreenburg/Uzumaki/Work/SWE/Open-Source/Deep-Learning-For-Path-Finding-In-5G-Adhoc-Networks/src/modelsFinal/modelNew"
