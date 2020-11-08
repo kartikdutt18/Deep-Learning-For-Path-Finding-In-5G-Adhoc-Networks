@@ -1,0 +1,4 @@
+pygame
+Numpy
+tensorflow
+tflearn
