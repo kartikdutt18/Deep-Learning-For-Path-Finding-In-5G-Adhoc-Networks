@@ -24,7 +24,6 @@ size = (1050, 700)
 screen = pygame.display.set_mode(size)
 pygame.font.init()
 myfont = pygame.font.SysFont('Comic Sans MS', 15)
-pygame.display.set_caption("Dr. Lucky's Cool Game")
 interface = []
 RESOLUTION = 25
 
@@ -52,10 +51,10 @@ def buildButtonPanel(city):
     interface[4].setText("Draw Full Mesh")
     interface[5].setText("Draw Batman Mesh")
     interface[6].setText("Dijkstras Algorithum")
-    interface[7].setText("Train Skynet Algorithum")
-    interface[8].setText("Blank Skynet Algorithum")
-    interface[9].setText("Slim Skynet Algorithum")
-    interface[10].setText("Basic Skynet Algorithum")
+    interface[7].setText("Train Neural Net Algorithum")
+    interface[8].setText("Blank Neural Net Algorithum")
+    interface[9].setText("Slim Neural Net Algorithum")
+    interface[10].setText("Basic Neural Net Algorithum")
     interface[11].setText("Shuffle")
     interface[11].touch = True
 
@@ -112,7 +111,7 @@ def drawGraphs(power, loss, city, devices, world):
     pygame.draw.rect(screen, lossColor, [0, city.height+50, lossLength, 50],0)
     pygame.draw.rect(screen, devicesColor, [0, city.height+100, devicesLength, 50],0)
     
-    textsurface2 = myfont.render("System Power Consumption", False, (0, 0, 0))
+    textsurface2 = myfont.render("Power Consumption", False, (0, 0, 0))
     screen.blit(textsurface2,(20, city.height+20))
     textsurface3 = myfont.render("System Average Signal Loss", False, (0, 0, 0))
     screen.blit(textsurface3,(20, city.height+70))
